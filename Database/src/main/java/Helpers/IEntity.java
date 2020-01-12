@@ -1,4 +1,4 @@
-package DatabaseModel;
+package Helpers;
 
 public interface IEntity {
 }

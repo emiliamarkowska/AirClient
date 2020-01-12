@@ -1,6 +1,8 @@
 package DatabaseModel;
 
-public class Ticket implements  IEntity{
+import Helpers.IEntity;
+
+public class Ticket implements IEntity {
 
         private int flightId;
         private Flight flight;

@@ -1,0 +1,76 @@
+-- create trigger to autoincrement country_id_]
+
+create or replace TRIGGER country_id_on_insert
+  BEFORE INSERT ON countries
+  FOR EACH ROW
+BEGIN
+  SELECT country_sequence.nextval
+  INTO :new.COUNTRY_ID
+  FROM dual;
+END;
+
+-- create trigger to autoincrement city_id
+
+create or replace TRIGGER city_id_on_insert
+  BEFORE INSERT ON cities
+  FOR EACH ROW
+BEGIN
+  SELECT city_sequence.nextval
+  INTO :new.city_ID
+  FROM dual;
+END;
+
+-- create trigger to autoincrement airport_id
+
+create or replace TRIGGER airport_id_on_insert
+  BEFORE INSERT ON airports
+  FOR EACH ROW
+BEGIN
+  SELECT airport_sequence.nextval
+  INTO :new.airport_id
+  FROM dual;
+END;
+
+-- create trigger to autoincrement flight_id
+
+create or replace TRIGGER flight_id_on_insert
+  BEFORE INSERT ON flights
+  FOR EACH ROW
+BEGIN
+  SELECT flight_sequence.nextval
+  INTO :new.flight_id
+  FROM dual;
+END;
+
+--	create trigger to autoincrement seat_id
+
+create or replace TRIGGER seats_id_on_insert
+  BEFORE INSERT ON seats_in_plane
+  FOR EACH ROW
+BEGIN
+  SELECT SEATS_IN_PLANE_SEQUENCE.nextval
+  INTO :new.seat_id
+  FROM dual;
+END;
+
+-- create trigger to autoincrement user_id
+
+create or replace TRIGGER user_id_on_insert
+  BEFORE INSERT ON users
+  FOR EACH ROW
+BEGIN
+  SELECT user_sequence.nextval
+  INTO :new.user_id
+  FROM dual;
+END;
+
+-- create trigger to autoincrement event_id
+
+create or replace TRIGGER events_log_on_insert
+  BEFORE INSERT ON events_log
+  FOR EACH ROW
+BEGIN
+  SELECT EVENT_LOGS_SEQUENCE.nextval
+  INTO :new.event_id
+  FROM dual;
+END;

@@ -1,9 +1,11 @@
 package DatabaseModel;
 
+import Helpers.IEntity;
+
 import java.text.SimpleDateFormat;
 
 
-public class EventLog implements  IEntity{
+public class EventLog implements IEntity {
 
     private int id;
     private int userId;

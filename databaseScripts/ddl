@@ -1,0 +1,157 @@
+-- create countries table
+
+CREATE TABLE Countries(
+country_id int,
+country_name varchar(255) not null,
+CONSTRAINT PK_country PRIMARY KEY(country_id),
+CONSTRAINT UQ_COUNTRY UNIQUE (Country_name)
+);
+
+-- create cities table
+
+CREATE TABLE Cities(
+city_id int,
+city_name varchar(255) not null,
+country_id int not null,
+CONSTRAINT PK_city PRIMARY KEY(city_id),
+CONSTRAINT FK_Country FOREIGN KEY (country_id)
+    REFERENCES Countries(country_id)
+);
+
+--create airports table
+
+CREATE TABLE Airports(
+airport_id int,
+airport_name varchar(255) not null,
+city_id int not null,
+CONSTRAINT PK_airportt PRIMARY KEY(airport_id),
+CONSTRAINT FK_City FOREIGN KEY (city_id)
+    REFERENCES Cities(city_id)
+);
+
+-- create flights table
+CREATE TABLE Flights(
+flight_id int,
+from_id int not null,
+to_id int not null,
+departure_time TIMESTAMP not null,
+arrival_time TIMESTAMP not null,
+distance_in_km float not null,
+CONSTRAINT PK_flight PRIMARY KEY(flight_id),
+CONSTRAINT FK_from FOREIGN KEY (from_id)
+    REFERENCES Airports(airport_id),
+CONSTRAINT FK_to FOREIGN KEY (to_id)
+    REFERENCES Airports(airport_id)    
+);
+
+-- create seats in plane table
+
+create table seats_in_plane(
+seat_id int,
+location_desc varchar(255) not null,
+seat_class varchar(255) not null,
+CONSTRAINT PK_seat PRIMARY KEY(seat_id),
+CONSTRAINT class_check check (seat_class IN ('First', 'Business' , 'Economy'))
+);
+
+-- create users table
+
+CREATE TABLE Users(
+user_id int,
+login varchar(255) not null,
+name_user varchar(50) not null,
+surname_user varchar(50) not null,
+email varchar(50) not null,
+creation_date date not null,
+day_of_birth date not null,
+is_admin number(1) default '0' not null,
+is_active number(1) default '1' not null,
+hashed_passwd varchar(50) not null,
+
+CONSTRAINT PK_user PRIMARY KEY(user_id),
+CONSTRAINT UQ_name UNIQUE(login),
+CONSTRAINT UQ_email UNIQUE(email),
+CONSTRAINT bool_check_admin CHECK(is_admin IN ('0', '1')),
+CONSTRAINT bool_check_ACTIVE CHECK(is_active IN ('0', '1'))
+);
+
+-- create tickets table
+
+CREATE TABLE Tickets (
+flight_id int,
+seat_id int,
+user_id int not null,
+price float not null,
+passenger_name varchar(150) not null,
+passenger_surname varchar(150) not null,
+
+CONSTRAINT PK_FLIGHT_SEAT PRIMARY KEY(flight_id, seat_id),
+CONSTRAINT FK_SEAT_ID FOREIGN KEY(SEAT_ID) REFERENCES SEATS_IN_PLANE(SEAT_ID),
+CONSTRAINT FK_FLIGHT_ID FOREIGN KEY(FLIGHT_ID) REFERENCES FLIGHTS(FLIGHT_ID),
+CONSTRAINT FK_USER FOREIGN KEY(user_id)
+    REFERENCES USERS(user_id)
+);
+
+-- create events log table
+
+CREATE TABLE Events_log (
+event_id int,
+user_id int not null,
+event_type varchar(255) not null,
+event_time timestamp not null,
+event_desc varchar (255),
+
+CONSTRAINT PK_event PRIMARY KEY(event_id),
+CONSTRAINT FK_iser FOREIGN KEY(user_id)
+    REFERENCES Users(user_id)
+);
+
+
+-- create country sequence
+
+CREATE SEQUENCE country_sequence
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1;
+
+-- create city sequence
+
+CREATE SEQUENCE city_sequence
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1;
+  
+-- create airport sequence 
+
+CREATE SEQUENCE airport_sequence
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1;
+  
+-- create flight sequence
+
+CREATE SEQUENCE flight_sequence
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1;
+  
+-- create seats in plane sequence
+
+CREATE SEQUENCE seats_in_plane_sequence
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1;
+
+-- create user sequence
+
+CREATE SEQUENCE user_sequence
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1;
+  
+ -- create events log sequence
+ 
+CREATE SEQUENCE event_logs_sequence
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1; 

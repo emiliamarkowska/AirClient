@@ -1,6 +1,8 @@
 package DatabaseModel;
 
-public class Country implements  IEntity{
+import Helpers.IEntity;
+
+public class Country implements IEntity {
 
     private int id;
     private String name;

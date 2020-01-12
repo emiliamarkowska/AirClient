@@ -1,5 +1,7 @@
 package DatabaseModel;
 
+import Helpers.IEntity;
+
 import java.sql.Timestamp;
 
 public class Flight implements IEntity {

@@ -1,5 +1,7 @@
 package DatabaseModel;
 
+import Helpers.IEntity;
+
 public class Airport implements IEntity {
 
     private int id;

@@ -1,5 +1,7 @@
 package DatabaseModel;
 
+import Helpers.IEntity;
+
 public class City implements IEntity {
 
     private int id;

@@ -1,4 +1,6 @@
-package DatabaseModel;
+package Helpers;
+
+import DatabaseModel.Ticket;
 
 import java.util.List;
 

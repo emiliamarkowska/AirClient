@@ -1,5 +1,7 @@
 package DatabaseModel;
 
+import Helpers.IEntity;
+
 import java.text.SimpleDateFormat;
 
 public class User implements IEntity {

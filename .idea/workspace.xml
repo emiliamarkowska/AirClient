@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad300111-b9b0-4c3e-a64f-d3bfb63e99f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Database/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/EventLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/EventLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/IDatabaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/Helpers/IDatabaseContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/IEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/Helpers/IEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/SearchParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/Helpers/SearchParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/SeatInPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/SeatInPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Airport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/EventLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Flight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/SeatInPlane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/src/main/java/Helpers/IDatabaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Database/src/main/java/Helpers/IDatabaseContext.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Database/target/" />
@@ -35,7 +34,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@airdb.cj9xm8zejw3z.eu-central-1.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@airdb.cj9xm8zejw3z.eu-central-1.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="ADMIN: schema" type="3abd1b6a:OraImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@airdb.cj9xm8zejw3z.eu-central-1.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="ADMIN: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
@@ -43,12 +58,69 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Database/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Database/src/main/java/Helpers/DatabaseContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="221">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/IAirportsRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="87" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database/src/main/java/Helpers/IDatabaseContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database/src/main/java/Helpers/AirclientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database/src/main/resources/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -58,8 +130,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -69,22 +143,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Airport.java" />
-        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/City.java" />
-        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Country.java" />
-        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/EventLog.java" />
         <option value="$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/Flight.java" />
-        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Flight.java" />
         <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/IDatabaseContext.java" />
         <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/SearchParameter.java" />
-        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/SeatInPlane.java" />
-        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/User.java" />
-        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Ticket.java" />
         <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/DatabaseConnection.java" />
         <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/DBConnection.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/City.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Airport.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/EventLog.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Flight.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/SeatInPlane.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Ticket.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/User.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/CountriesRepo.java" />
         <option value="$PROJECT_DIR$/Database/pom.xml" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Country.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/Database/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/asd.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/TicketsRepo.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/IAirportsRepo.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/ICitiesRepo.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/ICountriesRepo.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/IEventLogsRepo.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/IFlightsRepo.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/ISeatsInPlaneRepo.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/ITicketsRepo.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Repositories/IUsersRepo.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Consts/TableNames.java" />
         <option value="$PROJECT_DIR$/Database/src/main/java/Helpers/IDatabaseContext.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/AirportsEntity.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/CitiesEntity.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/CountriesEntity.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/EventsLogEntity.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/FlightsEntity.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/SeatsInPlaneEntity.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/TicketsEntity.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/DatabaseModel/UsersEntity.java" />
+        <option value="$PROJECT_DIR$/Database/src/beans.xml" />
+        <option value="$PROJECT_DIR$/Database/Database.iml" />
+        <option value="$PROJECT_DIR$/Database/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Helpers/AirclientApplication.java" />
+        <option value="$PROJECT_DIR$/Database/src/main/java/Helpers/DatabaseContext.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -99,7 +207,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="469" />
+    <option name="y" value="-18" />
     <option name="width" value="980" />
     <option name="height" value="525" />
   </component>
@@ -127,6 +236,12 @@
               <item name="AirClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="AirClient" type="462c0819:PsiDirectoryNode" />
               <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AirClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AirClient" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -151,7 +266,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DatabaseModel" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AirClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AirClient" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,11 +286,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="bd6b475e-9f91-44f8-ba9c-9d40d3dc32cc" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578937982475" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arek\Documents\Software Engineering\AirClient\Database\src\main\resources" />
+      <recent name="C:\Users\Arek\Documents\Software Engineering\AirClient\Database\src\main\java\META-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Repositories" />
+      <recent name="Helpers" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="DatabaseModel" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arek\Documents\Software Engineering\AirClient\Database\src\main\java\Helpers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,6 +332,15 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="AirclientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Database" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Helpers.AirclientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -192,11 +352,13 @@
       <option name="presentableId" value="Default" />
       <updated>1578837531433</updated>
       <workItem from="1578837534341" duration="4432000" />
+      <workItem from="1578845854836" duration="16115000" />
+      <workItem from="1578930485940" duration="7334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4432000" />
+    <option name="totallyTimeSpent" value="27881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,184 +370,55 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27315435" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77862597" visible="true" weight="0.2793177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" sideWeight="0.22137405" side_tool="true" visible="true" weight="0.2793177" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43228602" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.3295302" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" weight="0.14228188" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3295302" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.1913646" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/Airport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Airport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/EventLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/EventLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/Flight.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Flight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/IDatabaseContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/IEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/SearchParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/SeatInPlane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/DatabaseConnection.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Helpers/IDatabaseContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/SearchParameter.java" />
+    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/SeatInPlane.java" />
+    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/Ticket.java" />
+    <entry file="file://$PROJECT_DIR$/../../AirClient/AirClient/AirClient/Database/src/main/java/DatabaseModel/User.java" />
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/DatabaseConnection.java" />
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/DBConnection.java" />
     <entry file="file://$PROJECT_DIR$/Database/src/main/java/Helpers/IEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -393,33 +426,448 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Helpers/SearchParameter.java">
+    <entry file="file://$PROJECT_DIR$/Database/mvnw.cmd" />
+    <entry file="file://$PROJECT_DIR$/Database/mvnw" />
+    <entry file="file://$PROJECT_DIR$/Database/target/classes/DatabaseModel/EventLog.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirClient.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/SeatInPlane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="255">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="340">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/CountriesRepo.java" />
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Flight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="425">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/EventLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Helpers/SearchParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bd6b475e-9f91-44f8-ba9c-9d40d3dc32cc/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://Persistence/JavaeeElement:/c73abba3/entityManagerFactory/Database/jpa/JPA/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/c73abba3/entityManagerFactory/Database/jpa/JPA/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="268.5" y="397.0">AbstractAuditable#jar://C:/Users/Arek/.m2/repository/org/springframework/data/spring-data-jpa/2.2.3.RELEASE/spring-data-jpa-2.2.3.RELEASE.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class</node>
+            <node x="357.0" y="546.0">SeatInPlane#file://C:/Users/Arek/Documents/Software Engineering/AirClient/Database/src/main/java/DatabaseModel/SeatInPlane.java</node>
+            <node x="0.0" y="0.0">User#file://C:/Users/Arek/Documents/Software Engineering/AirClient/Database/src/main/java/DatabaseModel/User.java</node>
+            <node x="495.5" y="295.0">EventLog#file://C:/Users/Arek/Documents/Software Engineering/AirClient/Database/src/main/java/DatabaseModel/EventLog.java</node>
+            <node x="0.0" y="709.0">Country#file://C:/Users/Arek/Documents/Software Engineering/AirClient/Database/src/main/java/DatabaseModel/Country.java</node>
+            <node x="277.0" y="0.0">Ticket#file://C:/Users/Arek/Documents/Software Engineering/AirClient/Database/src/main/java/DatabaseModel/Ticket.java</node>
+            <node x="190.0" y="546.0">Airport#file://C:/Users/Arek/Documents/Software Engineering/AirClient/Database/src/main/java/DatabaseModel/Airport.java</node>
+            <node x="247.0" y="295.0">AbstractPersistable#jar://C:/Users/Arek/.m2/repository/org/springframework/data/spring-data-jpa/2.2.3.RELEASE/spring-data-jpa-2.2.3.RELEASE.jar!/org/springframework/data/jpa/domain/AbstractPersistable.class</node>
+            <node x="0.0" y="295.0">Flight#file://C:/Users/Arek/Documents/Software Engineering/AirClient/Database/src/main/java/DatabaseModel/Flight.java</node>
+            <node x="399.0" y="306.0">null#null</node>
+            <node x="0.0" y="546.0">City#file://C:/Users/Arek/Documents/Software Engineering/AirClient/Database/src/main/java/DatabaseModel/City.java</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="AbstractAuditable#jar://C:/Users/Arek/.m2/repository/org/springframework/data/spring-data-jpa/2.2.3.RELEASE/spring-data-jpa-2.2.3.RELEASE.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class" target="null#null">
+              <point x="45.5" y="-37.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="AbstractAuditable#jar://C:/Users/Arek/.m2/repository/org/springframework/data/spring-data-jpa/2.2.3.RELEASE/spring-data-jpa-2.2.3.RELEASE.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class" target="AbstractPersistable#jar://C:/Users/Arek/.m2/repository/org/springframework/data/spring-data-jpa/2.2.3.RELEASE/spring-data-jpa-2.2.3.RELEASE.jar!/org/springframework/data/jpa/domain/AbstractPersistable.class">
+              <point x="-45.5" y="-37.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="101.0" y="197.0" />
+          <SelectedNodes>
+            <node>null#null</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/asd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/IRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/ICitiesRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="83" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/ICountriesRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/IEventLogsRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/IFlightsRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/ISeatsInPlaneRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="95" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/ITicketsRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/IUsersRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Consts/TableNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/AirportsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/CitiesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/CountriesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/EventsLogEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/FlightsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/UsersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/TicketsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/DatabaseModel/SeatsInPlaneEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Repositories/IAirportsRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="87" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/Database.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Helpers/IDatabaseContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Helpers/AirclientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/src/main/java/Helpers/DatabaseContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Database</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.persistence:persistence-api:1.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

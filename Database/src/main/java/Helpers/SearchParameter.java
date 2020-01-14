@@ -5,13 +5,15 @@ public class SearchParameter<T> {
     private String fieldName;
     private T minValue;
     private T maxValue;
-    private T value;
+    private T exactValue;
+    private T containingValue;
 
-    public SearchParameter(String fieldName, T minValue, T maxValue, T value) {
+    public SearchParameter(String fieldName, T minValue, T maxValue, T exactValue, T containingValue) {
         this.fieldName = fieldName;
         this.minValue = minValue;
         this.maxValue = maxValue;
-        this.value = value;
+        this.exactValue = exactValue;
+        this.containingValue = containingValue;
     }
 
     public String getFieldName() {
@@ -38,11 +40,19 @@ public class SearchParameter<T> {
         this.maxValue = maxValue;
     }
 
-    public T getValue() {
-        return value;
+    public T getExactValue() {
+        return exactValue;
     }
 
-    public void setValue(T value) {
-        this.value = value;
+    public void setExactValue(T exactValue) {
+        this.exactValue = exactValue;
+    }
+
+    public T getContainingValue() {
+        return containingValue;
+    }
+
+    public void setContainingValue(T containingValue) {
+        this.containingValue = containingValue;
     }
 }

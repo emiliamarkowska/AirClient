@@ -110,4 +110,5 @@ public class SeatsInPlaneEntity implements IEntity {
     public void setTicketsBySeatId(Collection<TicketsEntity> ticketsBySeatId) {
         this.ticketsBySeatId = ticketsBySeatId;
     }
+
 }

@@ -81,4 +81,5 @@ public class AirportsEntity implements IEntity {
     public void setFlightsByAirportId_0(Collection<FlightsEntity> flightsByAirportId_0) {
         this.flightsByAirportId_0 = flightsByAirportId_0;
     }
+
 }

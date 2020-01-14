@@ -1,25 +1,20 @@
-package Helpers;
+package DatabaseModel;
 
 import Consts.TableNames;
-import DatabaseModel.TicketsEntity;
+import Helpers.IEntity;
+import Helpers.SearchParameter;
 import Repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import org.springframework.data.repository.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Configuration
-@EntityScan(basePackages = "DatabaseModel")
-@EnableJpaRepositories(basePackages="Repositories", entityManagerFactoryRef="")
+@Service
 public class DatabaseContext implements IDatabaseContext {
 
     @Autowired
-    private ICountriesRepo countriesRepo;
+    private CountriesRepo countriesRepo;
     @Autowired
     private ICitiesRepo citiesRepo;
     @Autowired
@@ -37,24 +32,24 @@ public class DatabaseContext implements IDatabaseContext {
 
     DatabaseContext() {}
 
-    public void addEntity(TableNames tableName, IEntity entity) {
-
+    public void addOrEditEntity(TableNames tableName, IEntity entity) {
+        JpaRepository repo = getRepo(tableName);
+        repo.save(entity);
     }
 
     public void removeEntity(TableNames tableName, int entityId) {
-
-    }
-
-    public void editEntity(TableNames tableName, IEntity entity) {
-
+        JpaRepository repository = getRepo(tableName);
+        repository.deleteById((long)entityId);
     }
 
     public IEntity getEntity(TableNames tableName, int entityId) {
         JpaRepository repo = getRepo(tableName);
-        return (IEntity)repo.findById(entityId).get();
+        return (IEntity)repo.findById((long) entityId).get();
     }
 
     public <T> List<IEntity> searchEntities(TableNames tableName, List<SearchParameter<T>> searchParameters) {
+//        JpaRepository repository = getRepo(tableName);
+//        repository.findAll();
         return null;
     }
 

@@ -102,4 +102,5 @@ public class TicketsEntity implements IEntity {
     public void setUsersByUserId(UsersEntity usersByUserId) {
         this.usersByUserId = usersByUserId;
     }
+
 }

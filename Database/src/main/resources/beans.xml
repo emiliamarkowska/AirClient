@@ -7,7 +7,7 @@
 
     <context:annotation-config/>
 
-    <bean id="databaseContext" class="Helpers.DatabaseContext"/>
+    <bean id="databaseContext" class="DatabaseModel.DatabaseContext"/>
 
 
 

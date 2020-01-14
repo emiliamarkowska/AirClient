@@ -60,4 +60,5 @@ public class CountriesEntity implements IEntity {
     public void setCitiesByCountryId(Collection<CitiesEntity> citiesByCountryId) {
         this.citiesByCountryId = citiesByCountryId;
     }
+
 }

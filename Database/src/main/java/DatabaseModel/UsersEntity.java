@@ -175,4 +175,5 @@ public class UsersEntity implements IEntity {
     public void setTicketsByUserId(Collection<TicketsEntity> ticketsByUserId) {
         this.ticketsByUserId = ticketsByUserId;
     }
+
 }

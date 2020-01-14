@@ -2,19 +2,16 @@ package DatabaseModel;
 
 import Consts.TableNames;
 import Helpers.IEntity;
-import Helpers.SearchParameter;
 import Repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class DatabaseContext implements IDatabaseContext {
 
     @Autowired
-    private CountriesRepo countriesRepo;
+    private ICountriesRepo countriesRepo;
     @Autowired
     private ICitiesRepo citiesRepo;
     @Autowired
@@ -33,39 +30,21 @@ public class DatabaseContext implements IDatabaseContext {
     DatabaseContext() {}
 
     public void addOrEditEntity(TableNames tableName, IEntity entity) {
-        JpaRepository repo = getRepo(tableName);
+        JpaRepository repo = getRepository(tableName);
         repo.save(entity);
     }
 
     public void removeEntity(TableNames tableName, int entityId) {
-        JpaRepository repository = getRepo(tableName);
+        JpaRepository repository = getRepository(tableName);
         repository.deleteById((long)entityId);
     }
 
     public IEntity getEntity(TableNames tableName, int entityId) {
-        JpaRepository repo = getRepo(tableName);
+        JpaRepository repo = getRepository(tableName);
         return (IEntity)repo.findById((long) entityId).get();
     }
 
-    public <T> List<IEntity> searchEntities(TableNames tableName, List<SearchParameter<T>> searchParameters) {
-//        JpaRepository repository = getRepo(tableName);
-//        repository.findAll();
-        return null;
-    }
-
-    public List<TicketsEntity> getUserTickets(int userId) {
-        return null;
-    }
-
-    public boolean establishConnection() {
-        return false;
-    }
-
-    public boolean executeQuery(String query) {
-        return false;
-    }
-
-    private JpaRepository getRepo(TableNames tableName) {
+    public JpaRepository getRepository(TableNames tableName) {
         switch(tableName) {
             case Airports:
                 return airportsRepo;

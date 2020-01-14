@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@airdb.cj9xm8zejw3z.eu-central-1.rds.amazonaws.com">
-  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.14">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.15">
     <root id="1">
       <ServerVersion>19.0.0.0.0</ServerVersion>
     </root>
